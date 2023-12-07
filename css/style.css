@@ -1,1 +1,477 @@
+color de fondo
+ body{
+    background-color:rgb(63, 38, 38);
+    
+}
+/*fuente de letras*/
+@font-face {
+    font-family: "atwriter.ttf";
+    src: url(../fuentes-nuevas/atwriter.ttf);
+}
+#collective{ 
+    height: 10px;
+    width: 10px;
+    
+}
 
+.tex{
+/*para el color de los parrafos*/
+    color: rgb(21, 21, 22);
+    /*tamaño*/
+    width: 10px;
+    height: 50px;
+
+}
+/* el parrafo de index */
+
+.tex {
+    background-color: #f6fa0a;
+    width: 700px;
+    height: 40px;
+  }
+  
+  /* Esta regla hará que el texto desaparezca cuando se cumpla la media query */
+  @media (max-width: 768px) {
+    .tex {
+      display: none;
+    }
+  }
+/*para el tamaño de cada imagen*/
+
+.viaja{
+    background-color: #85755b;
+    width: 850px;
+    height: 250px;
+  }
+  
+  /* Esta regla hará que el texto desaparezca cuando se cumpla la media query */
+  @media (max-width: 768px) {
+    .viaja {
+      display: none;
+    }
+  }
+ 
+  
+/*para el tamaño de cada imagen*/
+#collective{ 
+height: 10px;
+width: 10px;
+
+}
+
+
+
+
+
+a{
+    color: rgb(247, 240, 240);
+    text-decoration: none;
+    background-color: rgb(5, 5, 245);
+    
+/*sirve para agrandar el color de fondo*/
+padding-right: 20px;
+padding-left: 15px;
+/*ancho y largo*/
+padding-top: 15px;
+padding-bottom: 15px;
+/*una sola vez agregas los cuatros lados de la caja*/
+padding: 15px;
+/*para el color de los  4 bordes de cada caja*/
+border: 3px solid rgb(247, 240, 240);
+/*para redondear los bordes*/
+border-radius: 10px;
+}
+a:hover{
+    background-color: #67f30a;
+    cursor: pointer;
+
+}
+
+/*el boton de "hola"*/
+.martes{
+    background-color: rgb(4, 250, 86);
+    /*sirver para dar un espacio al boton de lado izquierdo y derecho*/
+    margin-left: 500px;
+    margin-left: 200px;
+    /*para los 4 lados */
+    margin: 50px;
+    /*sirve para que ocupe todo su espacio*/
+   display: block;
+}
+/*primera html*/
+.bienvenido{
+    width: 1000px;
+    height: 300px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media (max-width: 768px) {
+    .bienvenido {
+        width: 500px;
+        height: 300px;
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+h1{
+    background-color: rgb(240, 137, 19);
+    /*para modificar el ancho y largo del relleno*/
+    height: 40px;
+    width: 550px;
+     /*sirve para el alto y bajo de lo que esta dentro del  relleno de la caja blanca*/
+    padding-top: 1px;
+    padding-bottom: 1px;
+    /*sirve para ubicar el texto*/
+    text-align: center;
+      /*sirve para el estilo de la letra*/
+      font-style: italic;
+      /*sirve para subrayar las letras*/
+    text-decoration: underline;
+     /*para el tamaño de las letras*/
+     font-size: 25px;
+     /*font family*/
+     font-family:"atwriter.ttf";
+}
+/*el parrafo debajo de "porque eleguimos..."*/
+body p{
+   width: 600px;
+   height: 1px;
+   color: rgb(92, 8, 247);
+   margin-left: 50px;
+   margin-top: 1px;
+   font-size: 20px;
+}
+/*formulario de registro html*/
+/*las cajas de correo, nombre y contraseña*/
+body form  input {
+    width: 170px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 1000px;
+  
+}
+@media (max-width: 768px){
+    body form input {
+       
+    margin-left: 200px;
+    }
+}
+
+/*la mayoria de las cajas del formulario de registro*/
+body form label{
+    width: 300px;
+    height: 10px;
+    margin-top: 0px;
+    margin-left: 1000px;
+    
+}
+@media (max-width: 768px){
+    body form label {
+        width: 200px;
+    height: 5px;
+    margin-top: 10px;
+    margin-left: 200px;
+    }
+}
+/*el boton de ingresar*/
+body form a {
+    margin-left: 1040px;
+    margin-top: 0px; /* para bajar los botones */
+   
+    display: inline-block;
+}
+@media (max-width: 768px){
+    body form a {
+        margin-left: 230px;
+    }
+}
+/*el nombre del formulario de registro*/
+body div h2{
+    height: 10px;
+    margin-left: 985px;
+    display: inline;
+    color: blue;
+    font-size: 20px;
+}
+@media (max-width: 768px){
+    body div h2 {
+        margin-left: 190px;
+    }
+}
+
+/*el color de contraseña, correo y usuario*/
+body div form label{
+    color:rgb(19, 18, 18);
+}
+
+/*ordenar sin puntos*/
+
+  /*mapa gps del inicio*/
+    iframe.mapa{
+        
+        height: 800px;
+        width: 1348px;
+      
+    }
+    @media (max-width: 768px){
+        iframe.mapa{
+            height: 200px;
+        width: 483px;
+        }
+    }
+    
+  /*para llamar una imagen, tambien se puede usar un "."*/
+  .comprobante{
+    height: 800px;
+    width: 1000px;
+    margin-left: 150px;
+  }
+  @media (max-width: 768px){
+    .comprobante{
+    height: 400px;
+    width: 495px;
+    margin-left: 0px;
+}
+  }
+   /*comprarpasajes*/
+  /*selecion de numeros de asientos*/
+  /* Estilo para el select */
+select#colectivo {
+    /* Estilos generales del select */
+    width: 200px; /* Ancho del select */
+    padding: 8px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 50px; /* Radio de borde */
+    outline: none; /* Quita el contorno al seleccionar */
+    margin-left: 500px; /*mover a la derecha los elementos*/
+    /* Estilo del cursor al pasar sobre el select */
+    cursor: pointer;
+    margin-top: 30px;
+    
+    /* Estilo al pasar el mouse sobre el select */
+    &:hover {
+        background-color: #f0f0f0; /* Cambia el color al pasar el mouse */
+    }
+}
+@media (max-width: 768px){
+    select#colectivo{
+        padding: 8px; /* Espaciado interno */
+        font-size: 20px; /* Tamaño de fuente */
+        border: 1px solid #f19292; /* Borde */
+        border-radius: 50px; /* Radio de borde */
+        outline: none; /* Quita el contorno al seleccionar */
+        margin-left: 100px; /*mover a la derecha los elementos*/
+        /* Estilo del cursor al pasar sobre el select */
+        cursor: pointer;
+        margin-top: 30px;
+         width: 200px;
+     }
+ }
+
+
+/* Estilo para las opciones */
+select#colectivo option {
+    /* Estilos generales de las opciones */
+    background-color: #0a0a0a; /* Color de fondo */
+    color: #f80707; /* Color del texto */
+}
+select#fecha{
+     /* Estilos generales del select */
+     width: 200px; /* Ancho del select */
+     padding: 10px; /* Espaciado interno */
+     font-size: 20px; /* Tamaño de fuente */
+     border: 1px solid #ccc; /* Borde */
+     border-radius: 50px; /* Radio de borde */
+     outline: none; /* Quita el contorno al seleccionar */
+     margin-left: 500px;
+     /* Estilo del cursor al pasar sobre el select */
+     cursor: pointer;
+     margin-top: 30px; /*sirve para bajar un elemento*/
+     /* Estilo al pasar el mouse sobre el select */
+     &:hover {
+         background-color: #f0f0f0; /* Cambia el color al pasar el mouse */
+     }
+     
+}
+@media (max-width: 768px){
+    select#fecha{
+        padding: 8px; /* Espaciado interno */
+        font-size: 20px; /* Tamaño de fuente */
+        border: 1px solid #f19292; /* Borde */
+        border-radius: 50px; /* Radio de borde */
+        outline: none; /* Quita el contorno al seleccionar */
+        margin-left: 100px; /*mover a la derecha los elementos*/
+        /* Estilo del cursor al pasar sobre el select */
+        cursor: pointer;
+        margin-top: 30px;
+         width: 200px;
+     }
+ }
+select#fecha option {
+    /* Estilos generales de las opciones */
+    background-color: #0a0a0a; /* Color de fondo */
+    color: rgb(250, 0, 0); /* Color del texto */
+}
+select#asiento{
+    /* Estilos generales del select */
+    width: 200px; /* Ancho del select */
+    padding: 8px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 50px; /* Radio de borde */
+    outline: none; /* Quita el contorno al seleccionar */
+    margin-left: 500px;
+    /* Estilo del cursor al pasar sobre el select */
+    cursor: pointer;
+    margin-top: 30px;
+    /* Estilo al pasar el mouse sobre el select */
+    &:hover {
+        background-color: #f0f0f0; /* Cambia el color al pasar el mouse */
+    }
+    
+        
+      
+
+}
+@media (max-width: 768px){
+    select#asiento{
+        padding: 8px; /* Espaciado interno */
+        font-size: 20px; /* Tamaño de fuente */
+        border: 1px solid #f19292; /* Borde */
+        border-radius: 50px; /* Radio de borde */
+        outline: none; /* Quita el contorno al seleccionar */
+        margin-left: 100px; /*mover a la derecha los elementos*/
+        /* Estilo del cursor al pasar sobre el select */
+        cursor: pointer;
+        margin-top: 30px;
+         width: 200px;
+     }
+ }
+select#asiento option {
+   /* Estilos generales de las opciones */
+   background-color: #0a0a0a; /* Color de fondo */
+   color: #f30a0a; /* Color del texto */
+}
+
+  p.seleccione {
+    margin-left: 500px;
+    margin-top: 150px;
+    font-style: italic;
+    font-size: 25px;
+   }
+   @media (max-width: 768px){
+    p.seleccione{
+        margin-left: 100px;
+        margin-top: 50px;
+        font-style: italic;
+        font-size: 25px;
+}
+  }
+  
+  p.disponible {
+    margin-left: 480px;
+    margin-top: 1px;
+    font-style: italic;
+    font-size: 25px;
+  }
+  @media (max-width: 768px){
+    p.disponible{
+        margin-left: 60px;
+        margin-top: 50px;
+        font-style: italic;
+        font-size: 25px;
+}
+  }
+ 
+  p.numero{
+    margin-left: 453px;
+    margin-top: 1px;
+    font-style: italic;
+    font-size: 25px;
+  }
+  @media (max-width: 768px){
+    p.numero{
+        margin-left: 60px;
+        margin-top: 50px;
+        font-style: italic;
+        font-size: 25px;
+}
+  }
+                                               /*segunda pre-entrga*/
+                                           
+
+         .contener {
+            background-color: rgb(61, 60, 63);
+            padding: 10px;
+           
+        }
+        /*el menu principal*/
+        header nav ul {
+            list-style-type: none;
+            padding: 10px;
+            text-align: center;
+            font-size: 10px;
+            font-family: "atwriter.ttf";
+            
+
+           
+        
+        }
+        
+        /* Los botones de la página de inicio */
+        header nav ul li {
+            display: inline;
+            margin: 80px;
+            
+           
+           
+        }
+        
+        /* Botón */
+        header nav ul li a {
+            text-decoration: none;
+            border-radius: 10px;
+            border-bottom-right-radius: 20px;
+            border: 2px solid #f6fa0a; /* para el color de cada borde de los botones */
+            color: #faf8f8; /* color de la letras*/
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+                                             /* GRIDS 2 */
+     @media screen and (max-width: 768px) {
+        .contener  a {
+            background-color: #5cf106;
+           
+            display: block;
+            width: 300px;
+            text-align: center;
+            font-size: 20px;
+            margin: 30px;
+            
+        
+
+        }
+     }
+     @media screen and (max-width: 768px) {
+        a:hover {
+            background-color: #4506f1;
+           
+           cursor: pointer;
+        }
+    }
+    
+    
+   
+    
+   
