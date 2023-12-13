@@ -31,7 +31,7 @@ color de fondo
   }
   
   /* Esta regla hará que el texto desaparezca cuando se cumpla la media query */
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .tex {
       display: none;
     }
@@ -409,8 +409,14 @@ select#asiento option {
 
          .contener {
             background-color: rgb(61, 60, 63);
-            padding: 10px;
-           
+            padding: 20px;
+            display: flex;
+            justify-self: unset;
+        }
+        footer.contener a {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 130px;
         }
         /*el menu principal*/
         header nav ul {
