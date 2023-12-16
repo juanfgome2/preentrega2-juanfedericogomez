@@ -1,6 +1,6 @@
 color de fondo
  body{
-    background-color:rgb(63, 38, 38);
+    background-color:rgb(129, 84, 84);
     
 }
 /*fuente de letras*/
@@ -25,9 +25,10 @@ color de fondo
 /* el parrafo de index */
 
 .tex {
-    background-color: #f6fa0a;
-    width: 700px;
-    height: 40px;
+    background-color: #f7f78b;
+    width: 600px;
+    height: 50px;
+    margin-left: 300px; /* Esto desplaza hacia la derecha */
   }
   
   /* Esta regla hará que el texto desaparezca cuando se cumpla la media query */
@@ -39,9 +40,10 @@ color de fondo
 /*para el tamaño de cada imagen*/
 
 .viaja{
-    background-color: #85755b;
-    width: 850px;
-    height: 250px;
+    background-color: #f3c67f;
+    width: 710px;
+    height: 60px;
+    font-size: 14px;
   }
   
   /* Esta regla hará que el texto desaparezca cuando se cumpla la media query */
@@ -279,7 +281,7 @@ select#colectivo {
 /* Estilo para las opciones */
 select#colectivo option {
     /* Estilos generales de las opciones */
-    background-color: #0a0a0a; /* Color de fondo */
+    background-color: #2b2929; /* Color de fondo */
     color: #f80707; /* Color del texto */
 }
 select#fecha{
@@ -316,7 +318,7 @@ select#fecha{
  }
 select#fecha option {
     /* Estilos generales de las opciones */
-    background-color: #0a0a0a; /* Color de fondo */
+    background-color: #2e2d2d; /* Color de fondo */
     color: rgb(250, 0, 0); /* Color del texto */
 }
 select#asiento{
@@ -409,14 +411,16 @@ select#asiento option {
 
          .contener {
             background-color: rgb(61, 60, 63);
-            padding: 20px;
-            display: flex;
-            justify-self: unset;
+             padding: 20px;
+             display: flex;
+             justify-content: flex-end;
+            
         }
         footer.contener a {
             text-decoration: none;
-            color: #fff;
-            margin-right: 130px;
+            color: #f1e8e8;
+            margin-right: 147px;
+            
         }
         /*el menu principal*/
         header nav ul {
@@ -430,6 +434,22 @@ select#asiento option {
            
         
         }
+        /*mi cuenta*/
+      
+      .perfil {
+ 
+margin-top: 200px;
+
+margin-left: -450px; /* Reducir el margen izquierdo */
+}
+@media (max-width: 768px){
+    .perfil {
+       
+    margin-left: 5px;
+    }
+}
+
+  /*dhjdsajdsahjdjasdsajdjasdasjdhj*/
         
         /* Los botones de la página de inicio */
         header nav ul li {
@@ -445,7 +465,7 @@ select#asiento option {
             text-decoration: none;
             border-radius: 10px;
             border-bottom-right-radius: 20px;
-            border: 2px solid #f6fa0a; /* para el color de cada borde de los botones */
+            border: 2px solid #6b6d05; /* para el color de cada borde de los botones */
             color: #faf8f8; /* color de la letras*/
         }
         *{
@@ -471,7 +491,7 @@ select#asiento option {
      }
      @media screen and (max-width: 768px) {
         a:hover {
-            background-color: #4506f1;
+            background-color: #7f5ce2;
            
            cursor: pointer;
         }
