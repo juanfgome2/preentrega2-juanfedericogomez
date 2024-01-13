@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* .agua */
+.main.agua {
+  background-image: url("/imagenes/valle-y-montanas-en-alberta_3840x2160_xtrafondos.com.jpg");
+  background-size: cover; /* Ajusta el tamaño para cubrir todo el header */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  /* Estilos para el contenido dentro del header */
+  width: 1349px;
+  height: 800px;
+  /* Media Query para .agua en pantallas de hasta 768px */
+}
+@media (max-width: 768px) {
+  .main.agua {
+    width: 500px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* .registro */
+
+.registro h2 {
+  height: 10px;
+  margin-left: 985px;
+  display: inline;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  /* Media Query para .registro en pantallas de hasta 768px */
+}
+@media (max-width: 768px) {
+  .registro h2 {
+    margin-left: 155px;
+  }
+}
+.registro h1 {
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  height: 40px;
+  width: 550px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 25px;
+  font-family: "atwriter.ttf";
+}
+.registro p {
+  width: 600px;
+  height: 1px;
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+  margin-top: 1px;
+  font-size: 20px;
+}
+.registro form label {
+  width: 300px;
+  height: 10px;
+  margin-top: 0px;
+  margin-left: 1000px;
+  /* Media Query para form en pantallas de hasta 768px */
+}
+@media (max-width: 768px) {
+  .registro form label {
+    width: 200px;
+    height: 0px;
+    margin-top: 10px;
+    margin-left: 200px;
+    color: rgb(29, 29, 155);
+  }
+}
+.registro form input {
+  width: 170px;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 1000px;
+  /* Media Query para form input en pantallas de hasta 768px */
+}
+@media (max-width: 768px) {
+  .registro form input {
+    margin-left: 170px;
+    margin-top: 5px;
+  }
+}
+.registro form a {
+  margin-left: 1000px;
+  margin-top: 5px; /* para bajar los botones */
+  display: inline-block;
+  /* Media Query para form a en pantallas de hasta 768px */
+}
+@media (max-width: 768px) {
+  .registro form a {
+    margin-left: 10px;
+    margin-top: 50px; /* para bajar los botones */
+    margin-left: 70px;
+  }
+}
+.registro form .tex {
+  color: rgb(17, 17, 17);
+  /*tamaño*/
+  width: 10px;
+  height: 50px;
+  margin-top: -250px;
+  width: 600px;
+  height: 50px;
+  margin-left: 300px; /* Esto desplaza hacia la derecha */
+  /* Media Query para .tex en pantallas de hasta 767px */
+}
+@media (max-width: 767px) {
+  .registro form .tex {
+    display: none;
+  }
+}
+.registro form .viaja {
+  width: 500px;
+  height: 60px;
+  font-size: 18px;
+  margin-left: 350px;
+  /* Media Query para .viaja en pantallas de hasta 768px */
+}
+@media (max-width: 768px) {
+  .registro form .viaja {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
