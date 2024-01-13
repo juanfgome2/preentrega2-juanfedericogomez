@@ -1,0 +1,6 @@
+
+@mixin h1($align, $style, $decoration) {
+    text-align: $align;
+    font-style: $style;
+    text-decoration: $decoration;
+}
